@@ -42,7 +42,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'rspec-rails'
-  gem 'rubocop', require: false
+  gem 'rubocop', '~> 1.10', require: false
   gem 'rubocop-rails'
   gem 'rubocop-checkstyle_formatter'
   gem 'shoulda-matchers'
